@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rayan | Professional Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-animation"></div>
+    
+    <nav class="navbar">
+        <div class="logo">RAYAN<span class="dot">.</span></div>
+    </nav>
+
+    <main class="container">
+        <section class="hero">
+            <div class="profile-container">
+                <div class="profile-glow"></div>
+                <img src="IMG_20250120_155235.jpg" alt="Rayan" class="profile-img">
+            </div>
+            
+            <h1 class="name">Rayan <span class="badge">PRO</span></h1>
+            <p class="tagline">Creative Developer & Designer</p>
+            
+            <div class="social-links">
+                <a href="https://instagram.com/RAYAN._.NASA" target="_blank" class="social-btn instagram">
+                    <i class="fab fa-instagram"></i>
+                    <span>RAYAN._.NASA</span>
+                </a>
+                <a href="https://github.com/NASA4RAYAN" target="_blank" class="social-btn github">
+                    <i class="fab fa-github"></i>
+                    <span>NASA4RAYAN</span>
+                </a>
+                <div class="social-btn discord" onclick="copyDiscord()">
+                    <i class="fab fa-discord"></i>
+                    <span id="discord-tag">N5ZA</span>
+                    <span class="tooltip">Click to Copy</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="project-grid">
+                <!-- Project Card: Dar El Medina -->
+                <a href="https://dar-el-medina-evyq.vercel.app/index-fr.html" target="_blank" class="project-card">
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <h3>Dar El Medina</h3>
+                        <p>Authentic Moroccan Restaurant Experience. A premium website showcasing tradition and taste.</p>
+                        <div class="card-tags">
+                            <span>Web Design</span>
+                            <span>UI/UX</span>
+                            <span>Restaurant</span>
+                        </div>
+                        <div class="card-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </a>
+                
+                <!-- Placeholder for future projects -->
+                <div class="project-card coming-soon">
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>More Coming Soon</h3>
+                        <p>Currently working on new exciting projects.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Rayan. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
